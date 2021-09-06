@@ -7,7 +7,7 @@ function kata1() {
         arr.push(i)
     }
     showResults(arr.join(', '))
-    return arr
+    return arr 
 }
 
 kata1()
@@ -18,8 +18,8 @@ function kata2() {
     for(let i = 25; i >= 1; i--){
         arr.push(i)
     }
-    showResults(arr.join(' ,'))
-    return
+    showResults(arr.join(', '))
+    return arr
 }
 kata2()
 // console.log(kata2())
@@ -31,8 +31,8 @@ function kata3() {
     for(let i = -1; i >= -25; i--){
         arr.push(i)
     }
-    showResults(arr.join(' ,'))
-    return
+    showResults(arr.join(', '))
+    return arr
 }
 
 kata3()
@@ -44,8 +44,8 @@ function kata4() {
     for(let i = -25; i <= -1; i++){
         arr.push(i)
     }
-    showResults(arr.join(' ,'))
-    return
+    showResults(arr.join(', '))
+    return arr
 }
 
 kata4()
@@ -60,8 +60,8 @@ function kata5() {
             arr.push(i)
         }
     }
-    showResults(arr.join(' ,'))
-    return
+    showResults(arr.join(', '))
+    return arr
 }
 kata5()
 
@@ -74,8 +74,8 @@ function kata6() {
             arr.push(i)
         }
     }
-    showResults(arr.join(' ,'))
-    return
+    showResults(arr.join(', '))
+    return arr
 }
 
 kata6()
@@ -89,8 +89,8 @@ function kata7() {
             arr.push(i)
         }
     }
-    showResults(arr.join(' ,'))
-    return
+    showResults(arr.join(', '))
+    return arr
 }
 
 kata7()
@@ -105,8 +105,8 @@ function kata8() {
             arr.push(i)
         }
     }
-    showResults(arr.join(' ,'))
-    return
+    showResults(arr.join(', '))
+    return arr
 }
 
 kata8()
@@ -119,8 +119,8 @@ function kata9() {
             arr.push(i)
         }
     }
-    showResults(arr.join(' ,'))
-    return
+    showResults(arr.join(', '))
+    return arr
 }
 
 kata9()
@@ -136,7 +136,7 @@ function kata10() {
         }
     }
     showResults(arr)
-    return
+    return arr
 }
 
 kata10()
@@ -151,8 +151,8 @@ function kata11() {
             arr.push(sampleArray[i])
         }
     }
-    showResults(arr.join(' ,'))
-    return
+    showResults(arr.join(', '))
+    return arr
 }
 
 kata11()
@@ -165,8 +165,8 @@ function kata12() {
             arr.push(sampleArray[i])
         }
     }
-    showResults(arr.join(' ,'))
-    return
+    showResults(arr.join(', '))
+    return arr
 }
 
 kata12()
@@ -179,8 +179,8 @@ function kata13() {
             arr.push(sampleArray[i])
         }
     }
-    showResults(arr.join(' ,'))
-    return
+    showResults(arr.join(', '))
+    return arr
 }
 
 kata13()
@@ -193,8 +193,8 @@ function kata14() {
         soma = sampleArray[i] ** 2
         arr.push(soma)
     }
-    showResults(arr.join(' ,'))
-    return
+    showResults(arr.join(', '))
+    return arr
 }
 
 kata14()
@@ -208,8 +208,8 @@ function kata15() {
         soma = i + i
         arr.push(soma)
     }
-    showResults(arr.join(' ,'))
-    return
+    showResults(arr.join(', '))
+    return arr
 }
 kata15()
 
@@ -221,8 +221,8 @@ function kata16() {
         soma = sampleArray[i] + sampleArray[i]
         arr.push(soma)
     }
-    showResults(arr.join(' ,'))
-    return
+    showResults(arr.join(', '))
+    return arr
 }
 
 kata16()
@@ -238,7 +238,7 @@ function kata17() {
         }  
     }
     showResults(menorValor)
-    return
+    return menorValor
 }
 
 kata17()
@@ -255,7 +255,7 @@ function kata18() {
         }
     }
     showResults(maiorValor)
-    return
+    return maiorValor
 }
 
 kata18()
